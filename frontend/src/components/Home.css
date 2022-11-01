@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black");
+html, body {
+  height: 100%;
+}
+
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: darkslategray;
+  font-family: "Archivo Black";
+}
+
+.form {
+  height: 35%;
+  border: 10px solid #BED8D4;
+  border-radius: 20%;
+  margin-top: 1em;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F7F9F9;
+  display: flex;
+  padding: 45px;
+  box-shadow: rgba(32, 32, 77, 0.25) 0px 50px 100px -20px, rgba(3, 3, 3, 0.3) 0px 30px 60px -30px, rgba(4, 21, 39, 0.35) 0px -2px 6px 0px inset;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px !important;
+  font-size: 14px;
+  border-radius:5px;
+  padding: 5px;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-radius:5px;
+  border: 5px solid #BED8D4;
+}
+
+button:hover {
+  border: 5px solid #000000;
+}
